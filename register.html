@@ -14,16 +14,33 @@
         First Name: <input type="text"> <br>
         Last Name: <input type="text"><br>
         Email &#x1F4E7;: <input type="email" name="email" id="email"><br>
+        Password: <input type="password" name="  min="5"> <br>
         Birthday &#x1F382;:  <input type="date" name="dob" id="dob" type="date"><br>
         Gender: <br>
-        <input type="radio" name="gender">Male <br>
-        <input type="radio" name="gender">Female <br>
-        <input type="radio" name="gender">Other <br>
+        <!--// radio buttons -->
+        <label for="male" >Male</label>
+        <input type="radio" name="gender" id="male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"> <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other"><br>
 
+        <!-- check boxes -->
         Pets: <br>
-        <input type="checkbox"> Cat<br>
-        <input type="checkbox"> Dogs<br>
+        <label for="cat">Cat</label>
+        <input type="checkbox" id="cat"><br>
+        <label for="dog">Dog</label>
+        <input type="checkbox" id="dog"><br>
 
+        <!--drop down -->
+        Cars: <br>
+        <select name="" id="">
+            <option value="volvo" name="volvo">Volvo</option>
+            <option value="Audi" name="volvo">Audi</option>
+        </select>
+        <br>
+
+        <!-- submit & resest form buttons -->
         <input type="submit" value="Register Now!">
         <input type="reset">
     </form>

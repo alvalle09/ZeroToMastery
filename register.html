@@ -10,14 +10,24 @@
 
 <body>
     <a href="index.html"> Home &#x1F3E1;</a>
-    <form>
+    <head>
+        <h1>Register</h1>
+    </head>
+
+    <nav>
+        <a href="www.google.com">Google</a>
+    </nav>
+
+    <!-- use GET, not POST -->
+    <form method="GET">
         First Name: <input type="text" name="firstname"><br>
         Last Name: <input type="text" name="lastname"><br>
         Email &#x1F4E7;: <input type="email" id="email"  name="email"><br>
         Password: <input type="password" name="password"  min="5"> <br>
         Birthday &#x1F382;:  <input type="date" name="birthday" id="dob" type="date"><br>
-        Gender: <br>
+
         <!--// radio buttons -->
+        Gender: <br>
         <label for="male" >Male</label>
         <input type="radio" value="Male" id="male" name="gender"> <br>
         <label for="female">Female</label>

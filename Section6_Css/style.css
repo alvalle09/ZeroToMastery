@@ -1,0 +1,16 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;   
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+    border: 5px solid purple;
+}
+
+body {
+    background-image: url(andrew-buchanan-1400120-unsplash.jpg);
+    background-size: cover;
+}

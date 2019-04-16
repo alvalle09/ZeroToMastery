@@ -4,18 +4,27 @@ html {
      
 }
 
-h2, p:hover {
+h2 + p {
     color: #AA4139;
     text-align: center;
     border: 5px solid rgb(255, 176, 170);
     cursor: pointer;
-
 }
+
 
 body {
     /* Photo by Caleb Woods on Unsplash  */
     background-image: url(caleb-woods-323928-unsplash.jpg);
     background-size: cover;
+}
+
+
+p {
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: 'Poiret One', cursive;
 }
 
 li {

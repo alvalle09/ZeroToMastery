@@ -4,7 +4,7 @@ html {
      
 }
 
-h2 + p {
+p {
     color: #AA4139;
     text-align: center;
     border: 5px solid rgb(255, 176, 170);
@@ -18,16 +18,28 @@ body {
     background-size: cover;
 }
 
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
 
 p {
-    line-height: 20px;
+    line-height: 50px;
     font-style: italic;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 110%;
     font-family: 'Poiret One', cursive;
 }
 
 li {
     list-style: none;
     display: inline-block;
+}
+
+span {
+    font-size: 2rem;
 }

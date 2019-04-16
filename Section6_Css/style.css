@@ -1,16 +1,24 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;   
+     
 }
 
-h2 {
-    color: grey;
+h2, p:hover {
+    color: #AA4139;
     text-align: center;
-    border: 5px solid purple;
+    border: 5px solid rgb(255, 176, 170);
+    cursor: pointer;
+
 }
 
 body {
-    background-image: url(andrew-buchanan-1400120-unsplash.jpg);
+    /* Photo by Caleb Woods on Unsplash  */
+    background-image: url(caleb-woods-323928-unsplash.jpg);
     background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }

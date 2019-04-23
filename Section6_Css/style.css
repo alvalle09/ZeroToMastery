@@ -41,6 +41,7 @@ li {
 }
 
 span {
+    /* rem = root element */
     font-size: 2rem;
 }
 
